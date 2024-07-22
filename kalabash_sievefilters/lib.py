@@ -4,9 +4,9 @@
 
 import ssl
 
-from kalsievelib.factory import FiltersSet
-from kalsievelib import managesieve
-from kalsievelib.parser import Parser
+from kalkalsievelib.factory import FiltersSet
+from kalkalsievelib import managesieve
+from kalkalsievelib.parser import Parser
 import six
 
 from django.utils.translation import gettext as _

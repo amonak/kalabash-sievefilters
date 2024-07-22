@@ -25,7 +25,7 @@ class SieveFiltersTestCase(KbashTestCase):
 
     def setUp(self):
         """Connect with a simpler user."""
-        patcher = mock.patch("kalsievelib.managesieve.Client")
+        patcher = mock.patch("kalkalsievelib.managesieve.Client")
         self.mock_client = patcher.start()
         self.mock_client.return_value = mocks.ManagesieveClientMock()
         self.addCleanup(patcher.stop)

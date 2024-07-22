@@ -2,8 +2,8 @@
 
 """Custom views."""
 
-from kalsievelib.commands import BadArgument, BadValue
-from kalsievelib.managesieve import Error
+from kalkalsievelib.commands import BadArgument, BadValue
+from kalkalsievelib.managesieve import Error
 
 from django.contrib.auth.decorators import login_required
 from django.urls import reverse

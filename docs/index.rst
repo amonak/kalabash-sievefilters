@@ -7,7 +7,7 @@ Welcome to kalabash-sievefilters's documentation!
 ================================================
 
 This extension lets users create server-side message filters, using
-the `kalsievelib module <http://pypi.python.org/pypi/kalsievelib>`_ (which
+the `kalkalsievelib module <http://pypi.python.org/pypi/kalkalsievelib>`_ (which
 provides Sieve and ManageSieve clients).
 
 Two different modes are available:
