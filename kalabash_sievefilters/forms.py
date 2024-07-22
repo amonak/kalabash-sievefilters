@@ -1,7 +1,7 @@
 """Custom forms."""
 
-from kalkalsievelib import commands
-from kalkalsievelib.managesieve import SUPPORTED_AUTH_MECHS
+from kalsievelib import commands
+from kalsievelib.managesieve import SUPPORTED_AUTH_MECHS
 
 from django import forms
 from django.http import QueryDict
